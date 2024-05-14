@@ -15,7 +15,6 @@ body{
     margin: 15px auto;
 }
 
-
 .header {
     background-color:#88886f;
     color: white;
@@ -47,6 +46,17 @@ body{
     color: white;
     text-align: center;
     padding: 10px 0;
-    
+
 }
 
+.main {
+    padding: 20px;
+}
+
+.separador{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+
+}
