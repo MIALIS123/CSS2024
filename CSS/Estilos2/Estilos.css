@@ -60,3 +60,24 @@ body{
     clear: both;
 
 }
+.subtitulo  {
+    font-size: 1.5em;
+
+}
+.parrafo {
+    font-size: 1.2em;
+}
+.lista {
+    list-style-type: none;
+
+}
+.item {
+    margin-bottom: 10px;
+}
+.item a {
+    text-decoration: none;
+    color: #6d7aa9;
+}
+.item a:hover {
+    color: red;
+}
