@@ -27,3 +27,11 @@ body{
     overflow: hidden;
 
 }
+.logo {
+    float: left;
+
+}
+.nav {
+    float: right;
+}
+
