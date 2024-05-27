@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    background-image: linear-gradient(70deg, #fa9452 0, #ff8a56 6.25%, #ff7f5a 12.5%, #ff735f 18.75%, #ff6565 25%, #ff566b 31.25%, #fc4471 37.5%, #f62f78 43.75%, #ed0c7f 50%, #e20087 56.25%, #d50091 62.5%, #c5009c 68.75%, #b300a7 75%, #9e00b3 81.25%, #8304bf 87.5%, #6021ca 93.75%, #2030d4 100%);
+}
+
+body {
+    width: 90%;
+    margin: 15px auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1000px;
+
+}
+
+header {
+
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+main {
+    padding: 20px;
+
+}
+
+#float-clear {}
+
+.separador {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.section {
+    background-image: linear-gradient(20deg, #145e88 0, #295c89 4.55%, #375a89 9.09%, #445888 13.64%, #4f5586 18.18%, #5a5383 22.73%, #635080 27.27%, #6b4e7b 31.82%, #724b76 36.36%, #784970 40.91%, #7d476a 45.45%, #814664 50%, #84455d 54.55%, #864557 59.09%, #874550 63.64%, #87464a 68.18%, #864743 72.73%, #84483e 77.27%, #824a38 81.82%, #7e4d33 86.36%, #7a4f2f 90.91%, #76512c 95.45%, #715429 100%);
+}
+
+.subtitulo {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.parrafo {
+    font-size: 1.2em;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 10px 0;
+    
+}
+.li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+.a:hover {
+
+    color: #882d2d;
+    display: block;
+    text-decoration: none;
+
+}
+
+
+.logo {
+    float: right;
+}
+
+
+.logo img {
+    width: 100px;
+    float: left;
+    position: sticky;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer {
+    width: 90%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    bottom: 0;
+    position: fixed;
+}
